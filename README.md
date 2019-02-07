@@ -1,6 +1,6 @@
 # BlackMirror
 
-##Command git
+## Command git
 
 git clone "url_project"
 
@@ -9,7 +9,7 @@ https://gist.github.com/aquelito/8596717
 
 ___
 
-##Start server app
+## Start server app
 
 change directory:
      $ cd raspi
