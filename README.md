@@ -18,5 +18,5 @@ change directory:
      $ npm install
 
    run the app:
-     $ DEBUG=raspi:* npm start*
+     $ DEBUG=raspi:* npm start
 
