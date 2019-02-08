@@ -1,8 +1,28 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 a {
   color: #00B7FF;
+}
+#tan,#weather,#epsi,#mail{
+  padding:1%;
+  width: 25%;
+  
+  
+}
+#tan{
+  background-color: chocolate
+}
+#epsi{
+  background-color:rebeccapurple;
+}
+#mail{
+  background-color:cornflowerblue;
+}
+#weather{
+  background-color:greenyellow;
 }
