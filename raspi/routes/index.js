@@ -3,7 +3,14 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  if (process.env.FIRST_CONNECT == "true"){
+    res.render('index', { title: 'Express' });
+  }else{
+  res.render('firstConnection', { title: 'Express' });
+   process.env.FIRST_CONNECT= "true";
+   console.log( process.env.FIRST_CONNECT)
+
+  }
 });
 
 module.exports = router;
