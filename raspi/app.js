@@ -25,13 +25,13 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 
 /***************Mongodb configuratrion********************/
-var mongoose = require('mongoose');
-var configDB = require('./config/database.js');
+//var mongoose = require('mongoose');
+//var configDB = require('./config/database.js');
 //configuration ===============================================================
-mongoose.connect(configDB.url); // connect to our database
+//mongoose.connect(configDB.url); // connect to our database
 
 
-require('./config/passport')(passport); // pass passport for configuration
+//require('./config/passport')(passport); // pass passport for configuration
 
 //set up our express application
 app.use(morgan('dev')); // log every request to the console
